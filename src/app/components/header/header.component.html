@@ -1,0 +1,21 @@
+<ion-toolbar color="primary" mode="ios">
+  <ion-button slot="start" id="search-by-city" fill="clear" color="tertiary" (click)="show()">
+    <ion-icon name="search"></ion-icon>
+  </ion-button>
+  <ion-input autocorrect="off" enterkeyhint="done" inputmode="text" type="search" class="searcher" trigger="search-by-city"
+    *ngIf="showInput" placeholder="Search" 
+    (keyup.enter)="onInput($event)"
+    enterkeyhint="Search"
+    >
+  </ion-input>
+  <ion-title [ngClass]="showInput ? 'search' : 'no-search'" [slot]="showInput ? 'end' : ''">
+    <ion-icon name="location-outline"></ion-icon>
+    {{ city }}
+  </ion-title>
+
+</ion-toolbar>
+
+
+
+
+<!-- <ion-alert trigger="search-by-city" header="Search by City" [buttons]="alertButtons" [inputs]="alertInputs"></ion-alert> -->

@@ -1,0 +1,98 @@
+.w-img {
+    width: 130px;
+    height: 130px;
+}
+
+.first{
+    // margin-top: 1rem;
+    background-image: linear-gradient(to right, rgba(30, 33, 58, 0.97) 0 100%), url("../../../assets/weather/Cloud-background.png");
+    background-repeat: space;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lbl-degrees{
+    font-size: 90px;
+    margin-bottom: 1rem;
+    margin-top: 10px;
+}
+.lbl-status{
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+.lbl-date{
+    font-size: 20px;
+    
+    margin-bottom: 1rem;
+}
+
+.second-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.second{
+    margin-top: 1rem;
+    border-radius: 20px;
+    background-color: #100e1d;
+    width: 90%;
+    height: 80%;
+    text-align: center;
+}
+
+.txt-days{
+    margin-left: 20px;
+}
+
+.img-card{
+    width: 100px;
+    height: 100px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.second-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.second-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    height: 10rem;
+    margin: 7px 10px 7px 10px;
+}
+
+.second-card-content{
+    font-size: 30px;
+}
+
+.title-second{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.title-card-sec{
+    font-size: 17px;
+}
